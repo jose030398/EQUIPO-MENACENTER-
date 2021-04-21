@@ -1,9 +1,9 @@
-/**
- * @format
- */
+import Onboarding from "./Onboarding";
+import Home from "./Home";
+import DestinationDetail from "./DestinationDetail";
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export {
+    Onboarding,
+    Home,
+    DestinationDetail
+};
